@@ -1,4 +1,6 @@
-class apt-cacher-ng($version = 'installed') {
+class apt-cacher-ng (
+  $version = 'installed'
+) {
   package { 'apt-cacher-ng':
     ensure => $version,
   }
